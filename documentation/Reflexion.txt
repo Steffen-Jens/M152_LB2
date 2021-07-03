@@ -1,0 +1,5 @@
+Ich fand, dass die Arbeit sehr spannend war. Die Teamarbeit funktionierte sehr gut.
+Das interpretieren des Codes war sehr interessant. Ich konnte dabei sehr viel neues lernen.
+Auch spannend war es verschiedene Lösungsansätze für die Seat Preview auszuprobieren und auszuwählen.
+Leider war die Zeit etwas sehr knapp, um alles optimal lösen zu können (z.B. Script um mouseevents beim Youtube Iframe auszuschalten.)
+Dennoch bin ich sehr zufrieden mit unserer Arbeit.

@@ -1,0 +1,54 @@
+$background--color:#000814;
+$page--background--color: #22223b;
+$light--page--background--color: #4a4e69;
+$icon--color:#c9ada7;
+$font--color:#f2e9e4;
+$highlighting--color: #c9ada7;
+$font--primary:'PT Sans Narrow', sans-serif;
+$hover: darken($background--color, 10%);
+
+@import 'nav', 'impressum', 'style_program_page';
+
+html{
+  overflow-x: hidden;
+  overflow-y: hidden !important;
+}
+
+body{
+  background-color: $page--background--color;
+  font-family: $font--primary;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: calc(100%);
+  margin: 0px;
+  .nav{
+    z-index:-1;
+  }
+}
+
+:root {
+  --surface-color: #4a4e69;
+  --curve: 40;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nav-link {
+  display: inline-block;
+  color: $font--color;
+}
+
+.nav-link::after {
+  content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: $font--color;
+  transition: 300ms;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
